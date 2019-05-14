@@ -16,3 +16,4 @@ print (type(z1))
 
 num = 10.7
 print (type(num))
+print (num+1)
