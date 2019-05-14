@@ -9,4 +9,7 @@ print(lst[-1:-6:-1])
 
 tpl = (1, 5 ,87 , 94)
 print (type(tpl))
+print (tpl[0])
 
+z1=1+2j
+print (type(z1))
