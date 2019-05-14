@@ -13,3 +13,6 @@ print (tpl[0])
 
 z1=1+2j
 print (type(z1))
+
+num = 10.7
+print (type(num))
