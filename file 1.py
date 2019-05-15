@@ -17,3 +17,7 @@ print (type(z1))
 num = 10.7
 print (type(num))
 print (num+1)
+
+txt ="hello dear"
+print (txt[6::])
+print (type(txt))
