@@ -1,3 +1,5 @@
+# How many Unicue words are in the text?
+
 txt = " hello hello hi"
 
 txt_1 = txt.split()
