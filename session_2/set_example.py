@@ -1,4 +1,4 @@
-# How many Unicue words are in the text?
+# How many Unique words are in the text?
 
 txt = " hello hello hi"
 
