@@ -1,24 +1,24 @@
 
 
-weight = int(input("enter weight (kg) : "))
-height = int(input("enter height (m) : "))
+weight = float(input("enter weight (kg) : "))
+height = float(input("enter height (m) : "))
 
 a = 18.5
 b = 25
 c = 30
 
-BMI = weight/(height**2)
+bmi = weight / (height ** 2)
 
-print("BMI =" , BMI)
+print("BMI =", bmi)
 
-if BMI < a:
+if bmi < a:
     print("Under-weight")
 
-elif a <= BMI < b:
+elif a <= bmi < b:
     print("Normal!")
 
-elif b <= BMI < c:
+elif b <= bmi < c:
     print("Over-weight")
 
-elif BMI >= c:
+elif bmi >= c :
     print("Obesity")
