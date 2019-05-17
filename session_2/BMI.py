@@ -1,7 +1,7 @@
 
 
-weight = 60
-height = 1.80
+weight = int(input("enter weight (kg) : "))
+height = int(input("enter height (m) : "))
 
 a = 18.5
 b = 25
@@ -14,11 +14,11 @@ print("BMI =" , BMI)
 if BMI < a:
     print("Under-weight")
 
-if a <= BMI < b:
+elif a <= BMI < b:
     print("Normal!")
 
-if b <= BMI < c:
+elif b <= BMI < c:
     print("Over-weight")
 
-if BMI >= c:
+elif BMI >= c:
     print("Obesity")
