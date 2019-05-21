@@ -12,13 +12,13 @@ bmi = weight / (height ** 2)
 print("BMI =", bmi)
 
 if bmi < a:
-    print("Under-weight")
+    print("Underweight")
 
 elif a <= bmi < b:
     print("Normal!")
 
 elif b <= bmi < c:
-    print("Over-weight")
+    print("Overweight")
 
 elif bmi >= c :
     print("Obesity")
