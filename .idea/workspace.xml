@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46ac0daa-8e91-43e1-a529-ae19ac1eb222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/00-warm-up/question-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/class-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/class-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46ac0daa-8e91-43e1-a529-ae19ac1eb222" name="Default Changelist" comment="change one mistake" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +19,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/session_2/and_or_not_operators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/00-warm-up/question-2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+              <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -49,13 +53,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/file 1.py" />
-        <option value="$PROJECT_DIR$/session_2/and_or_not_operators.py" />
         <option value="$PROJECT_DIR$/session_2/question.py" />
         <option value="$PROJECT_DIR$/session_2/set_example.py" />
         <option value="$PROJECT_DIR$/session_2/loop_example.py" />
         <option value="$PROJECT_DIR$/session_2/prime_numbers.py" />
         <option value="$PROJECT_DIR$/session_2/BMI.py" />
         <option value="$PROJECT_DIR$/Homework/00-warm-up/question-2.py" />
+        <option value="$PROJECT_DIR$/session_2/and_or_not_operators.py" />
       </list>
     </option>
   </component>
@@ -76,6 +80,17 @@
             <path>
               <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="class-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="class-1" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="class-1" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="00-warm-up" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -100,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.and_or_not_operators">
+  <component name="RunManager" selected="Python.question-2">
     <configuration name="BMI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="class-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,8 +244,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.and_or_not_operators" />
         <item itemvalue="Python.question-2" />
+        <item itemvalue="Python.and_or_not_operators" />
         <item itemvalue="Python.BMI" />
         <item itemvalue="Python.loop_example" />
         <item itemvalue="Python.set_example" />
@@ -304,20 +319,26 @@
       <option name="project" value="LOCAL" />
       <updated>1558420853661</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change one mistake">
+      <created>1558422634562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558422634562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22954726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22954726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32852563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28846154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -339,7 +360,8 @@
     <MESSAGE value="modify-some-misakes" />
     <MESSAGE value="set" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="change one mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="change one mistake" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/session_2/prime_numbers.py">
@@ -363,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_2/and_or_not_operators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file 1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -384,10 +399,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/session_2/and_or_not_operators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework/00-warm-up/question-2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>
