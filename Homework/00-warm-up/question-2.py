@@ -16,7 +16,7 @@ if quest == "y":
 
     bmi = weight / (height ** 2)
 
-    print "BMI =", bmi
+    print ("BMI =", bmi)
 
 
 
