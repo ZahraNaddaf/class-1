@@ -7,7 +7,7 @@ def is_prime(number):
         if number % i == 0:
             prime = False
             break
-    return(prime)
+    return prime
 
 
 result = is_prime(11098751357)

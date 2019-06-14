@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ac0daa-8e91-43e1-a529-ae19ac1eb222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/session_4/is_prime(function).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_4/number_of_words_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/assingment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/guess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/zeta_reimann.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_4/is_prime(function).py" beforeDir="false" afterPath="$PROJECT_DIR$/session_4/is_prime(function).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,19 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session3/assingment.py">
+        <entry file="file://$PROJECT_DIR$/session_4/is_prime(function).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="150">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/session_4/is_prime(function).py">
+        <entry file="file://$PROJECT_DIR$/session_4/number_of_words_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -62,6 +66,7 @@
         <option value="$PROJECT_DIR$/session3/assingment.py" />
         <option value="$PROJECT_DIR$/session_4/is_prime.py" />
         <option value="$PROJECT_DIR$/session_4/is_prime(function).py" />
+        <option value="$PROJECT_DIR$/session_4/number_of_words_function.py" />
       </list>
     </option>
   </component>
@@ -82,6 +87,11 @@
             <path>
               <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="class-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="class-1" type="462c0819:PsiDirectoryNode" />
+              <item name="session_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -106,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.is_prime">
+  <component name="RunManager" selected="Python.number_of_words_function">
     <configuration name="assingment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="class-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,27 +138,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="class-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/session3/guess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="is_prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="class-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,6 +151,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Student\PycharmProjects\class-1\session_4\is_prime(function).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="number_of_words_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="class-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/session_4/number_of_words_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number_of_words_function" />
         <item itemvalue="Python.is_prime" />
         <item itemvalue="Python.assingment" />
         <item itemvalue="Python.zeta_reimann" />
         <item itemvalue="Python.question-2" />
-        <item itemvalue="Python.guess" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558683641761</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="is_prime_function">
+      <created>1560491085305</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560491085305</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +429,8 @@
     <MESSAGE value="session3" />
     <MESSAGE value="modify" />
     <MESSAGE value="zeta-function" />
-    <option name="LAST_COMMIT_MESSAGE" value="zeta-function" />
+    <MESSAGE value="is_prime_function" />
+    <option name="LAST_COMMIT_MESSAGE" value="is_prime_function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/session_2/prime_numbers.py">
@@ -471,21 +489,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session3/guess.py">
+    <entry file="file://$PROJECT_DIR$/session_3/guess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session3/zeta_reimann.py">
+    <entry file="file://$PROJECT_DIR$/session_3/zeta_reimann.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session3/assingment.py">
+    <entry file="file://$PROJECT_DIR$/session_3/assingment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
@@ -494,8 +512,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/session_4/is_prime(function).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_4/number_of_words_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
