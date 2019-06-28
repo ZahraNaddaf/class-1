@@ -24,28 +24,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session_4/is_prime(function).py">
+        <entry file="file://$PROJECT_DIR$/session_6/prime_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-end-line="14" />
+            <state relative-caret-position="362">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session_6/prime_generator.py">
+        <entry file="file://$PROJECT_DIR$/session_6/square_numbers_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/session_6/square_numbers_generator.py">
+        <entry file="file://$PROJECT_DIR$/session_6/color_decorator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -85,8 +85,9 @@
         <option value="$PROJECT_DIR$/session_4/fibonacci_function.py" />
         <option value="$PROJECT_DIR$/session_5.py" />
         <option value="$PROJECT_DIR$/session_5/example.py" />
-        <option value="$PROJECT_DIR$/session_6/prime_generator.py" />
         <option value="$PROJECT_DIR$/session_6/square_numbers_generator.py" />
+        <option value="$PROJECT_DIR$/session_6/prime_generator.py" />
+        <option value="$PROJECT_DIR$/session_6/color_decorator.py" />
       </list>
     </option>
   </component>
@@ -136,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.square_numbers_generator">
+  <component name="RunManager" selected="Python.prime_generator">
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="class-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,27 +180,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="is_prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="class-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Student\PycharmProjects\class-1\session_4\is_prime(function).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="number_of_words_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="class-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +193,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Student\PycharmProjects\class-1\session_4\number_of_unique_words_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prime_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="class-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/session_6/prime_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prime_generator" />
         <item itemvalue="Python.square_numbers_generator" />
         <item itemvalue="Python.example" />
         <item itemvalue="Python.fibonacci_function" />
         <item itemvalue="Python.number_of_words_function" />
-        <item itemvalue="Python.is_prime" />
       </list>
     </recent_temporary>
   </component>
@@ -424,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560500524959</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fibonacci_function">
+      <created>1561701902985</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561701902985</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21205357" />
@@ -436,14 +444,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.4640523" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49702382" visible="true" weight="0.19117647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.31535947" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3006536" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029762" side_tool="true" weight="0.4640523" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32852563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -487,7 +495,8 @@
     <MESSAGE value="is_prime_function" />
     <MESSAGE value="unique_words_function" />
     <MESSAGE value="fibonacci_function" />
-    <option name="LAST_COMMIT_MESSAGE" value="fibonacci_function" />
+    <MESSAGE value="color" />
+    <option name="LAST_COMMIT_MESSAGE" value="color" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/session_2/prime_numbers.py">
@@ -582,13 +591,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/session_5.py" />
-    <entry file="file://$PROJECT_DIR$/session_5/is_triangle_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/session_4/is_prime(function).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -596,10 +598,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/session_5/is_triangle_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/session_6/prime_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="362">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -607,6 +616,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_6/color_decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
