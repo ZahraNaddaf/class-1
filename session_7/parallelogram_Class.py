@@ -8,8 +8,8 @@ class Parallelogram:
         self.alpha = alpha
 
     def calculate_height(self):
-        height = (math.sin(math.radians(self.alpha))) * self.b
-        return height
+        theta = (math.sin(math.radians(self.alpha)))
+        return theta*self.b
 
     def calculate_perimeter(self):
         return (self.a + self.b) * 2
