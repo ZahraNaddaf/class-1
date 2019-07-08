@@ -1,0 +1,2 @@
+Number of all words: 3094
+Number of non repetitive words: 1510
