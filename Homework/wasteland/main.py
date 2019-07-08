@@ -59,4 +59,3 @@ def word_frequency(text: str):
 
 text = fr
 print(word_frequency(text))
-
