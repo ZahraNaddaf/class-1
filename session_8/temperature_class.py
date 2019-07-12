@@ -1,4 +1,15 @@
 class Tempreture:
+    """
+    example
+    -------
+    >>> t = Tempreture(27)
+    >>> t.cels
+    27
+    >>> t.fahrenheit
+    80.6
+
+
+    """
     def __init__(self,celsius):
         self.cels = celsius
 
@@ -10,8 +21,8 @@ class Tempreture:
     def fahrenheit(self, value):
         self.cels = (5/9)*(value - 32)
 
-t = Tempreture(27)
-print(t.cels, t.fahrenheit)
+if __name__ == '__main__':
+    import doctest
 
-t.fahrenheit = 100
-print(t.cels, t.fahrenheit)
+
+    doctest.testmod()
