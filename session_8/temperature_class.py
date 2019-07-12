@@ -8,12 +8,13 @@ class Tempreture:
     >>> t.fahrenheit
     80.6
     >>> t.fahrenheit = 100
+    >>> t.cels
     37.77777777777778
 
     """
 
     def __init__(self, celsius):
-        self.cels = celsius
+        self.cels = float(celsius)
 
     @property
     def fahrenheit(self):
