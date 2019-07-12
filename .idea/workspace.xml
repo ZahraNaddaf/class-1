@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ac0daa-8e91-43e1-a529-ae19ac1eb222" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/session_8/setter_getter_rectangle_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session_8/temperature_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_8/temperature_class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/session_8/temperature_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/session_8/setter_getter_rectangle_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -63,6 +72,7 @@
         <option value="$PROJECT_DIR$/Homework/wasteland/out_words_count.txt" />
         <option value="$PROJECT_DIR$/Homework/wasteland/main.py" />
         <option value="$PROJECT_DIR$/session_8/temperature_class.py" />
+        <option value="$PROJECT_DIR$/session_8/setter_getter_rectangle_class.py" />
       </list>
     </option>
   </component>
@@ -83,6 +93,16 @@
             <path>
               <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="class-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="class-1" type="462c0819:PsiDirectoryNode" />
+              <item name="session_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="class-1" type="462c0819:PsiDirectoryNode" />
+              <item name="session_8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562910047408</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="tempereture_class_add_doctest">
+      <created>1562911096993</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562911096993</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tempereture_class_add_doctest">
+      <created>1562911476228</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1562911476228</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -460,7 +494,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3006536" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32852563" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -667,8 +701,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/session_8/temperature_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_7/Inheritance_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" lean-forward="true" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_7/parallelogram_Class.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_8/setter_getter_rectangle_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
