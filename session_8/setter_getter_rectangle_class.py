@@ -9,7 +9,7 @@ class Rectangle():
 
     @area.setter
     def area(self, value):
-        ratio = (value/ self.area)** 0.5
+        ratio = (value / self.area) ** 0.5
         self.width *= ratio
         self.height *= ratio
 
@@ -19,6 +19,4 @@ class Rectangle():
 
     @perimeter.setter
     def perimeter(self, value):
-        ratio = value/self.perimeter
-
-
+        ratio = value / self.perimeter
