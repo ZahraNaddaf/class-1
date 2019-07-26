@@ -1,6 +1,7 @@
 import sqlite3
 
-path = "C:/Users/Student/Downloads/chinook.db"
+path = "chinook.db"
+# path = "C:/Users/Student/Downloads/chinook.db "
 
 conn = sqlite3.connect(path)
 
