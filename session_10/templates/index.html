@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+</head>
+<body>
+
+
+<form method="post">
+    <table>
+        {% if bmi %}
+        <tr>
+            <td>BMI:</td>
+            <td>{{ bmi_preview }}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                {% if bmi > 28 %}
+                    Obese
+                {% elif bmi > 24 %}
+                    Over-weight
+                {% elif bmi > 19 %}
+                    Normal
+                {% else %}
+                    Under-weight
+                {% endif %}
+            </td>
+
+        </tr>
+        {% endif %}
+
+        <tr>
+            <td>Weight</td>
+            <td><input name="w"></td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td><input name="h"></td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>

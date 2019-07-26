@@ -1,16 +1,20 @@
-from flask import Flask
+from flask import Flask,render_template, request
 
-app = Flask('My Application')
-
-def read_file(filename):
-    f = open(filename)
-    text = f.read()
-    f.close()
-    return text
+app = Flask('my application')
 
 
-@app.route("/")
-def whatever():
-    return read_file("index.html")
+@app.route('/', methods=["GET", "POST"])
+def main_page():
+    if request.method == 'GET':
+        return render_template("index.html")
+    else:
+        weight = float(request.form['w'])
+        height = float(request.form['h'])
+        bmi = weight / height ** 2
+        bmi_preview = f"{bmi:.2f}"
+
+        return render_template("index.html", bmi=bmi, bmi_preview=bmi_preview)
+
+
 
 app.run()

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ac0daa-8e91-43e1-a529-ae19ac1eb222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/session_10/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_10/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/class-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/class-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_10/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_10/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_10/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_10/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/session_10/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session_10/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/session_10/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="184">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -81,7 +80,10 @@
         <option value="$PROJECT_DIR$/session_9/pair_turtle.py" />
         <option value="$PROJECT_DIR$/session_9/quasion.py" />
         <option value="$PROJECT_DIR$/session_10/index.html" />
+        <option value="$PROJECT_DIR$/session_10/template/dashboard.html" />
+        <option value="$PROJECT_DIR$/session_10/template/index.html" />
         <option value="$PROJECT_DIR$/session_10/app.py" />
+        <option value="$PROJECT_DIR$/session_10/templates/index.html" />
       </list>
     </option>
   </component>
@@ -108,6 +110,12 @@
               <item name="class-1" type="462c0819:PsiDirectoryNode" />
               <item name="session_10" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="class-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="class-1" type="462c0819:PsiDirectoryNode" />
+              <item name="session_10" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +128,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\PycharmProjects\class-1\session_10\template" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -498,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564120004764</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="modify_folder_name">
+      <created>1564120174742</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1564120174742</updated>
+    </task>
+    <task id="LOCAL-00033" summary="modify_folders_name">
+      <created>1564120279470</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1564120279470</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -509,7 +536,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.25816995" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.45424837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,24 +552,25 @@
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="3" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21205357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19791667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3006536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.45424837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.31535947" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" visible="true" weight="0.3006536" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3006536" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32852563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="3" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
@@ -569,7 +597,9 @@
     <MESSAGE value="new_turtle_class" />
     <MESSAGE value="new_new_turtle_class" />
     <MESSAGE value="html" />
-    <option name="LAST_COMMIT_MESSAGE" value="html" />
+    <MESSAGE value="modify_folder_name" />
+    <MESSAGE value="modify_folders_name" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify_folders_name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,21 +613,21 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/session_2/prime_numbers.py">
+    <entry file="file://$PROJECT_DIR$/session_02/prime_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_2/loop_example.py">
+    <entry file="file://$PROJECT_DIR$/session_02/loop_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_2/set_example.py">
+    <entry file="file://$PROJECT_DIR$/session_02/set_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
@@ -611,14 +641,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_2/and_or_not_operators.py">
+    <entry file="file://$PROJECT_DIR$/session_02/and_or_not_operators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_2/BMI.py">
+    <entry file="file://$PROJECT_DIR$/session_02/BMI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -639,42 +669,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_3/guess.py">
+    <entry file="file://$PROJECT_DIR$/session_03/guess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_3/zeta_reimann.py">
+    <entry file="file://$PROJECT_DIR$/session_03/zeta_reimann.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_3/assingment.py">
+    <entry file="file://$PROJECT_DIR$/session_03/assingment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_4/is_prime(function).py">
+    <entry file="file://$PROJECT_DIR$/session_04/is_prime(function).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_4/number_of_unique_words_function.py">
+    <entry file="file://$PROJECT_DIR$/session_04/number_of_unique_words_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_4/fibonacci_function.py">
+    <entry file="file://$PROJECT_DIR$/session_04/fibonacci_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
@@ -682,7 +712,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/session_5.py" />
-    <entry file="file://$PROJECT_DIR$/session_5/is_triangle_function.py">
+    <entry file="file://$PROJECT_DIR$/session_05/is_triangle_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -703,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_6/wasteland/main.py">
+    <entry file="file://$PROJECT_DIR$/session_06/wasteland/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/wasteland/wasteland.txt">
@@ -727,24 +757,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_7/Inheritance_Class.py">
+    <entry file="file://$PROJECT_DIR$/session_07/Inheritance_Class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="18" lean-forward="true" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_7/parallelogram_Class.py">
+    <entry file="file://$PROJECT_DIR$/session_07/parallelogram_Class.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_8/setter_getter_rectangle_class.py">
+    <entry file="file://$PROJECT_DIR$/session_08/setter_getter_rectangle_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_8/temperature_class.py">
+    <entry file="file://$PROJECT_DIR$/session_08/temperature_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -758,14 +788,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_9/quasion.py">
+    <entry file="file://$PROJECT_DIR$/session_09/quasion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_9/pair_turtle.py">
+    <entry file="file://$PROJECT_DIR$/session_09/pair_turtle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
@@ -775,24 +805,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_9/new_turtle_method.py">
+    <entry file="file://$PROJECT_DIR$/session_09/new_turtle_method.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session_10/index.html">
+    <entry file="file://$PROJECT_DIR$/session_10/template/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/session_10/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session_10/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
