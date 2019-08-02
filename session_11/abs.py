@@ -1,18 +1,12 @@
-
 import pprint
 import time
 import urllib.request
 
+
 def beautify(list_of_btc):
     beauty_list = []
-    for i in list_of_btc:
-        beauty_list.append({
-            "time": time.asctime(time.localtime(i[0])),
-            "open": i[1],
-            "highest": i[2],
-            "lowest": i[3],
-            "closed": i[3]
-        })
+    for price in list_of_btc:
+        beauty_list.append(Price(*price))
     return beauty_list
 
 
@@ -44,15 +38,37 @@ class CoinPrice:
         return self.__data
 
 
+    def __repr__(self):
+        return '\n'.join([repr(d) for d in self.data])
+
+
+class Price:
+    def __init__(self, _time, opening, highest, lowest, closed, volume):
+        self.time = time.ctime(_time)
+        self.opening = opening
+        self.highest = highest
+        self.lowest = lowest
+        self.closed = closed
+        self.volume = volume
+
+    @property
+    def is_asc(self):
+        return self.opening < self.closed
+
+    @property
+    def diff(self):
+        return self.highest - self.lowest
+
+    def __repr__(self):
+        if self.is_asc:
+            color_code = "\033[32;1m"
+        else:
+            color_code = "\033[31;1m"
+        reset_code = "\033[0m"
+        return f"{color_code}|{self.time}|{self.volume:10.1f}|{self.diff:10.1f}|{reset_code}"
+
+
 if __name__ == '__main__':
     btc = CoinPrice('1m')
-
-    lst = btc.data
-
-    print(lst)
-
-    # {'time': 'Fri Aug  2 10:17:00 2019', 'open': 10468.39, 'highest': 10486.5, 'lowest': 10468.39, 'closed': 10468.39}
-    f = lambda x: x['highest'] - x['lowest']
-    out = sorted(lst, key=f)
-
-    pprint.pprint(out[-10:])
+    out = sorted(btc.data, key=lambda x: x.diff)
+    print(repr(btc))
