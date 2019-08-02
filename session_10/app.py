@@ -1,4 +1,4 @@
-from flask import Flask,render_template, request
+from flask import Flask, render_template, request
 
 app = Flask('my application')
 
@@ -14,7 +14,6 @@ def main_page():
         bmi_preview = f"{bmi:.2f}"
 
         return render_template("index.html", bmi=bmi, bmi_preview=bmi_preview)
-
 
 
 app.run()
